@@ -70,16 +70,23 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  .col-sm-4 {
-    padding: 20px
+  .col-sm-1 {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px
+    
   }
 
-  .col-sm-6 {
-    padding: 20px
+  .col-sm-9 {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px
   }
 
   .col-sm-2 {
-    padding: 20px
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px
   }
   .container {
     padding: 20px
