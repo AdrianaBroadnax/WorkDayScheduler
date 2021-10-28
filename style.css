@@ -70,24 +70,28 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  .col-sm-1 {
+  /* .col-sm-1 {
     border-radius: 10px;
     border-style: solid;
     padding: 10px
     
-  }
+  } */
 
-  .col-sm-9 {
+  .col-sm-6 {
     border-radius: 10px;
+    display: flex;
+    text-align: center;
     border-style: solid;
     padding: 10px
   }
 
   .col-sm-2 {
     border-radius: 10px;
+    display: flex;
+    text-align: center;
     border-style: solid;
-    padding: 10px
+    padding: 5px
   }
   .container {
-    padding: 20px
+    padding: 10px
   }
