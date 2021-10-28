@@ -1,6 +1,6 @@
 // const taskList = localStorage.getItem('taskList');
 function myFunction(){
-    var taskListToSave={type:"taskList8"}
+    var taskListToSave={type:"taskList"}
     var taskListReadyToSave=JSON.stringify(taskListToSave)
     localStorage.setItem("taskList", taskListReadyToSave)
 }
