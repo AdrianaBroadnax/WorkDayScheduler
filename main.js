@@ -16,13 +16,8 @@ saveBtn.addEventListener("click", function () {
     document.location = "index.html";
 });
 
-// const taskList = localStorage.getItem('taskList');
-// function myFunction(){
-//     var taskListToSave={type:"taskList"}
-//     var taskListReadyToSave=JSON.stringify(taskListToSave)
-//     localStorage.setItem("taskList", taskListReadyToSave)
-// }
-// document.getElementById("saveBtn").onclick = function() {myFunction()};
-
-
 // retrieving saved items from local storage
+function getTaskListFromLocalStorage() {
+    return JSON.parse(localStorage.getItem("TaskList")) || [];
+}
+
