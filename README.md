@@ -21,8 +21,12 @@ This is also where I made the times that were past grey, the current time red, a
 
 # MAIN.JS
 I made a save button for the user to save their tasks or plans to the local storage.
+I also tried to make it save so when the user refreshes, their tasks will be saved.
 
 
 Repo link:
+https://github.com/AdrianaBroadnax/WorkDayScheduler.git
+
 Depository link: 
-Screenshot: 
+https://adrianabroadnax.github.io/WorkDayScheduler/
+

@@ -6,7 +6,7 @@
 // }
 // document.getElementById("saveBtn").onclick = function() {myFunction()};
 
-var saveTaskContainer = document.querySelector("#saveTask-container");
+var saveTaskContainer = document.querySelector("#taskContainer");
 var saveBtn = document.querySelector("#save-button");
 var clearSaveTask = document.querySelector("#clearAll");
 
@@ -21,3 +21,11 @@ function getTaskListFromLocalStorage() {
     return JSON.parse(localStorage.getItem("TaskList")) || [];
 }
 
+function renderTaskList() {
+    var allTaskList = getTaskListFromLocalStorage ();
+    saveTaskContainer.innerHTML = "";
+    
+    for (var i = 0; i < allTaskList.length; i++){
+      var taskListReadyToSave = allTaskList[i].taskInput;
+    }
+}
