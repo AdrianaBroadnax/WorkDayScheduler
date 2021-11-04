@@ -99,3 +99,11 @@ body {
   #done {
     background-color: gray;
   }
+  
+  #currentTime {
+    background-color: red;
+  }
+
+  #available {
+    background-color: green;
+  }
